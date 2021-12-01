@@ -10,11 +10,12 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="Features", glue="StepDefn", strict=true, dryRun=true, monochrome=true)//we can add in this bracket after glue as ,
+@CucumberOptions(features="Features", glue="StepDefn", strict=true, dryRun=true, monochrome=true)//we can 
+//add in this bracket after glue as ,
 //tags="@Sc1" or tags="@Sc2" for corresponding scenario
 
 /*features value in double quote is address of features file as value to feature file as 
- * there is single file so given single file name
+ * there is single file in folder features so given single folder name
  * 
  * glue value is package name of script even more classes then also single package name 
  * */
